@@ -289,7 +289,7 @@ public class MainActivity extends Activity {
 			bgSet.playSequentially(leftSet,rightSet,centerSet,underSet,wordAlpha);
 			bgSet.setDuration(600);
 			
-			AnimatorSet[]  animList = new AnimatorSet[piecesFrame.length+1];
+			AnimatorSet[]  animList = new AnimatorSet[piecesFrame.length+2];
 			
 			animList[0] = bgSet;
 			
@@ -307,7 +307,7 @@ public class MainActivity extends Activity {
 				set2.playSequentially(set,rotate);
 				animList[i+1] = set2;
 			}
-			animList[piecesFrame.length] = questionAnimSet;
+			animList[piecesFrame.length+1] = questionAnimSet;
 			AnimatorSet animSet = new AnimatorSet();
 			animSet.playSequentially(animList);
 			animSet.start();
