@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Puzzle</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="answer">0x54</string>
+	<string name="has_answer">0x55</string>
+	<string name="is_question">0x57</string>
+	<string name="has_view">0x58</string>
+</resources>
